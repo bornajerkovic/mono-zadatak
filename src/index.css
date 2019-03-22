@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.div--align {
+  display: inline-block;
+  vertical-align: middle;
+}
+.container--image {
+  display: block;
+  float: left;
+  width: 50%;
+}
+.details--image {
+  width: 500px;
+}
+.green {
+  background-color: green;
+}
+.quan {
+  background-color: #f2f2f2;
+  color: black;
+}
+.image {
+  vertical-align: middle;
+  margin-top: 10px;
+}
+.container--header {
+  display: inline-block;
+  background: white;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+.container--details {
+  background-color: white;
+  display: block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  margin-top: 25px;
+  padding: 15px;
+  box-shadow: 1px 1px grey;
+}
+.container--vehicle {
+  background-color: white;
+  box-shadow: 2px 2px grey;
+  height: 120px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+.container--filter {
+  background-color: #0652dd;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 50px;
+  display: inline-block;
+}
+button {
+  position: relative;
+  float: right;
+  padding: 10px 15px;
+  background-color: #0652dd;
+  color: #f5f6fa;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+.remove {
+  background-color: red;
+}
+.incart {
+  background-color: darkgoldenrod;
+}
+p {
+  padding: 0px;
+  margin: 5px;
+}
+
+select {
+  border: 0;
+  margin-right: 5px;
+  margin-top: 10px;
+  height: 30px;
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
